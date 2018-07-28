@@ -1,0 +1,8 @@
+/target/
+.JQueryApp.iml
+/webapp/
+/public/node_modules/
+/public/package-lock.json
+/.idea/
+.gitattributes
+

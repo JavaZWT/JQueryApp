@@ -1,1 +1,0 @@
-{"version":3,"names":[],"mappings":"","sources":["js/index.js"],"sourcesContent":["/**\ns * Created by LHY on 15/11/12.\n */\n\n$(function(){\n    app.loadViewport();\n});\n\n"],"file":"index.js"}
