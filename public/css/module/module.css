@@ -1,0 +1,32 @@
+/**
+*  这个页面主要负责各个页面的样式
+*  每个页面建议只有一个顶级div 同时根据页面路径定义顶级div class名 如: home-pad 页面为 home-pad-viewport
+*  页面样式 前均使用当前页面顶级class名 进行过滤  如: .home-pad-viewport .home-bgimg
+*/
+
+/*   统一字体规范    */
+.t_blue{color:  #0c5eb6 }
+.t_gray{color:  #5f5f5f}
+.t_ora{color:#FFA500}
+.t_white{color:#ffffff}
+.t_red{color:#d82f12}
+.fontsize1{font-size: 1rem}
+.fontsize2{font-size: 1.25rem}
+.fontsize3{font-size: 1.6rem}
+.fontsize4{font-size: 0.875rem}
+.fontsize5{font-size: 1.125rem}
+.fontsize7{font-size: 1.4rem}
+.fontsize8{font-size: 1.07rem;color:#0281d2;}
+.fontsize9{font-size: 1.04rem;color:#0281d2;}
+.fontsize10{font-size:1.04rem;color:#E90000;}
+.fontsize11{font-size: 1.125rem;color:#0281d2;}
+.pdb15px{padding-bottom: 15px!important;}
+.eform-topbar-menu{
+    text-align: center;
+}
+.text-primary{
+	color:#0281d2;
+}
+
+
+

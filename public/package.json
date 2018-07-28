@@ -1,0 +1,32 @@
+{
+  "name": "JQueryApp",
+  "version": "1.0.0",
+  "description": "基于JQuery和bootstrap的一款单页面App框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JavaZWT",
+  "license": "BSD",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-cache": "^0.4.1",
+    "gulp-cached": "^1.1.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-clean-css": "^3.0.0",
+    "gulp-remember": "^0.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-useref": "^3.0.5",
+    "gulp-webserver": "^0.9.1",
+    "imagemin-pngquant": "^4.2.0",
+    "jshint": "^2.9.1",
+    "lazypipe": "^1.0.1",
+    "through2": "^2.0.0"
+  }
+}
