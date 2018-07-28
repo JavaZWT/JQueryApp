@@ -492,6 +492,13 @@ $(function(){
             api.loadJS(jsArr,0,function(){
                 if(callback) callback(api.curr);
             });
+
+            if(app.curr.noMenubar)
+            {
+                $('#mainviewport').addClass('footer-hide');
+            }else{
+                $('#mainviewport').removeClass('footer-hide');
+            }
         });
     };
 

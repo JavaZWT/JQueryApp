@@ -182,6 +182,14 @@ jQuery(function(){
     }
 
     /**
+     * 为后退按钮增加事件,如果没有用户定义的事件 则返回上一页
+     */
+    $('#global-header-back').click(function(){
+        if(app.curr.back) app.curr.back();
+        else history.back();
+    });
+
+    /**
      * 根据当前环境跳转至不同的页面
      */
     app.devicePath = null;//APP中目录路径 在cordova加载完成后会进行赋值

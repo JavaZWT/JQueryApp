@@ -50,7 +50,19 @@
 
         </div>
         <div class="footer" id="global-footer">
-
+            <div class="global-first-menu template" id="global-first-menu">
+                <!-- 菜单模板 -->
+                <ul class="footer">
+                    {{#each this}}
+                    {{#if auth}}
+                    <li class="menu-item item-width1" id="{{id}}" >
+                        <div class="menu-nodeCode {{#if active}}active{{/if}} {{classNode}}"></div>
+                        <p class="{{#if active}}active{{/if}}">{{title}}</p>
+                    </li>
+                    {{/if}}
+                    {{/each}}
+                </ul>
+            </div>
         </div>
     </div>
 
@@ -91,6 +103,7 @@
 <script src="js/app/api.js"></script>
 <script src="js/app/app.js"></script>
 <script src="js/plugins/header.js"></script>
+<script src="js/plugins/menu.js"></script>
 <script src="js/utils/utils.js"></script>
 <script src="js/utils/GlobalValue.js"></script>
 <script src="js/utils/Math.uuid.js"></script>
